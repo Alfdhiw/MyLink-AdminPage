@@ -1,0 +1,120 @@
+/*!
+ * Bootstrap  v5.3.3 (https://getbootstrap.com/)
+ * Copyright 2011-2024 The Bootstrap Authors
+ */
+
+.account-card {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    max-width: 500px;
+    width: 100%;
+}
+
+.account-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.upgrade-btn {
+    background: #fff;
+    border:1px solid #bcc1cb;
+    color: #37517e;
+    font-size: 14px;
+    padding: 5px 10px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.upgrade-btn:hover {
+    background: #37517e;
+    border:1px solid #bcc1cb;
+    color: #fff;
+}
+
+.upgrade-btn i {
+    margin-right: 5px;
+}
+
+.profile-section {
+    display: flex;
+    align-items: center;
+    background: #e8f6f8;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+
+.profile-info {
+    display: flex;
+    align-items: center;
+}
+
+.profile-img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.profile-text h6 {
+    margin: 0;
+    font-weight: bold;
+    color: #37517e;
+}
+
+.profile-text a {
+    font-size: 14px;
+    color: #47b2e4;
+    text-decoration: none;
+}
+
+.share-btn {
+    background: #e8f6f8;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    color: #37517e;
+}
+
+.share-btn:hover {
+    background: #37517e;
+    color: #fff;
+    
+}
+
+.share-btn i {
+    margin-right: 5px;
+}
+
+.action-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin-top: 10px;
+}
+
+.action-buttons .btn {
+    border: 1px solid #ddd;
+    font-size: 14px;
+    border-radius: 5px;
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+}
+
+.action-buttons .btn i {
+    margin-right: 5px;
+}
